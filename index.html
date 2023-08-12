@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel=" shortcut icon" type="x-icon" href="images/zi.jpg">
+    <title>Zishan Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Zishan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                My Name is <span class="blue">Zishan</span>
+                <div>And I am a Web Developer</div>
+                <span id="element" class="blue"></span>
+            </div>
+            <div class="rightSection">
+                <img src="images/a.png" alt="web" />
+            </div>
+        </section>
+        <hr />
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="profile-image">
+                    <img src="images/mypic1.jpg" alt="mypic1" />
+                </div>
+                <div class="about-content">
+                    <h1>Hello, I'm <span>Zishan</span></h1>
+                    <p class="tagline">Web Developer & Creative Explorer</p>
+                    <div class="description">
+                        <p>
+                            I'm on a journey to transform imagination into reality. With a
+                            palette of ideas and skills, I craft innovative digital
+                            experiences that captivate and inspire.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Web Design</li>
+                            <li>PHP[Laravel]</li>
+                            <li>Front-End Development</li>
+                            <li>Illustration</li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <p>Ready to collaborate on something amazing?</p>
+                        <a href="https://mail.google.com/mail/zishanahmad102@gmail.com" class="contact-button">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="achievements" class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Achievements</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="images/skylab.png" alt="" />
+                    <div class="vertical-title">Php Full Stack Web Development</div>
+                    <div class="verticle-desc">
+                        I have done a training Program from SkyLab Engineers. And I have
+                        learnt here About HTML,CSS,JavaScript, Bootstrap,JQuery,PHP and
+                        Laravel
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/devtown.png" alt="" />
+                    <div class="vertical-title">
+                        7 Days Bootcamp by DevTown on Hotstar Clone
+                    </div>
+                    <div class="verticle-desc">
+                        I have Successfully completed 7 days bootcamp on hotstar clone in
+                        july 2023.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/Wb.png" alt="" />
+                    <div class="vertical-title">
+                        Gold Certificate By WorldQuant Brain
+                    </div>
+                    <div class="verticle-desc">
+                        I got a Gold level Certificate from WorldQuant Brain for Aquiring
+                        good position and performance in WorldQuant Challenge.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <!-- Project Section -->
+        <section id="project" class="project-container">
+            <h1>Projects</h1>
+
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://www.teledataict.com/media/2022/02/blog_online_business.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2>Blog Design</h2>
+                    <p>Blog design is a website where we can upload blogs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://www.corporatevision-news.com/wp-content/uploads/2021/12/Inventory.jpg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h2>Inventory Management System</h2>
+                    <p>Inventory Management System ia a Web Application where we can manage the inventories online of any stores</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!--- Contact Section --->
+        <section id="contact" class="contact-section">
+            <div class="contact-form">
+                <h2>Let's Connect</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <div class="menu">
+                <div class="toggle">
+                    <ion-icon name="share-social"></ion-icon>
+                </div>
+
+                <li style="--i: 0; --clr: #1877f2">
+                    <a href="https://www.facebook.com/profile.php?id=100009298448007&mibextid=ZbWKwL"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li style="--i: 1; --clr: #25d366">
+                    <a href="https://wa.me/+918858648016"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                </li>
+                <li style="--i: 2; --clr: #1da1f2">
+                    <a href="https://twitter.com/zishan0310?s=09"><ion-icon name="logo-twitter"></ion-icon></a>
+                </li>
+                <li style="--i: 3; --clr: #ff5733">
+                    <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
+                </li>
+                <li style="--i: 4; --clr: #0a66c2">
+                    <a href="https://www.linkedin.com/in/zishan-ahmad-karim-10270024a"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+                <li style="--i: 5; --clr: #c32aa3">
+                    <a href="https://www.instagram.com/zishan0310/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
+                <li style="--i: 6; --clr: #fff">
+                    <a href="https://github.com/zishan0310"><ion-icon name="logo-github"></ion-icon></a>
+                </li>
+                <li style="--i: 7; --clr: #ff0000">
+                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                </li>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <pre><h3>Zishan's Developer Portfolio</h3></pre>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright © 2023 www.zishansportfolio.com All Rights Reserved | This
+            template is made with ❤️
+        </div>
+    </footer>
+
+    <!-- social media icons -->
+    <script src="https://cpwebassets.codepen.io/assets/packs/js/authorizeDataCapture-05b0ed5daa7315e8f46a.js"></script>
+    <script
+        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: ["Web Developer", "Research Consultant", "Web Designer"],
+            typeSpeed: 50,
+        });
+
+        id = "rendered-js";
+        const menu = document.querySelector(".menu");
+        const toggle = document.querySelector(".toggle");
+        toggle.addEventListener("click", () => {
+            menu.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
